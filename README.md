@@ -1,4 +1,13 @@
+# 运行环境
+
+python版本：3.11.9
+
+依赖库：具体查看requirements.txt文件
+
+
+
 # DNF_pvf_python
+
 ![Image text](https://github.com/Zageku/DNF_pvf_python/raw/main/images/ico.png)
 
 DNF台服pvf以及数据库背包blob字段读取。dnf背包清理工具。
@@ -7,7 +16,7 @@ DNF台服pvf以及数据库背包blob字段读取。dnf背包清理工具。
 
 
 ![Image text](https://github.com/Zageku/DNF_pvf_python/raw/main/images/168.png)
- 
+
 ![Image text](https://github.com/Zageku/DNF_pvf_python/raw/main/images/sponsor.png)
 
 # 食用说明
@@ -48,7 +57,7 @@ CSV提取自台服dnf吧一键端（2022）。
 PVF文件读取后会在config目录创建本地缓存pvf.cache，不同的PVF根据MD5值加以区分，同一个PVF在不同目录也是不会重复读取的。
 
 读取后，可以通过最下方的选择框选择PVF。
- 
+
 ![Image text](https://github.com/Zageku/DNF_pvf_python/raw/main/images/160.png)
 
 ### 3、物品编辑与备份
@@ -88,7 +97,7 @@ PVF文件读取后会在config目录创建本地缓存pvf.cache，不同的PVF�
 选中搜索PVF文本，会同时搜索所有物品的PVF信息，否则只对物品名进行搜索。
 
 搜索完成后选中结果可以显示物品的PVF信息，点击提交可以直接将搜索结果填充至当前页面的物品编辑栏中。
- 
+
 ![Image text](https://github.com/Zageku/DNF_pvf_python/raw/main/images/55.png)
 
  
@@ -100,13 +109,13 @@ PVF文件读取后会在config目录创建本地缓存pvf.cache，不同的PVF�
 删除与修改前会提示是否确定进行操作。
 
 任务可以一键完成击杀怪物、通关副本等类型任务。
- 
+
 ![Image text](https://github.com/Zageku/DNF_pvf_python/raw/main/images/169.png)
 
 ![Image text](https://github.com/Zageku/DNF_pvf_python/raw/main/images/170.png)
 
 
- 
+
 ### 6、角色信息编辑&GM工具
 
 可以升级降级，可以改名，可以转职觉醒，可以充值封号。
@@ -183,5 +192,4 @@ PVF文件读取后会在config目录创建本地缓存pvf.cache，不同的PVF�
 ![Image text](https://github.com/Zageku/DNF_pvf_python/raw/main/images/113.png)
 
 ![Image text](https://github.com/Zageku/DNF_pvf_python/raw/main/images/114.png)
-
 
